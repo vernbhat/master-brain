@@ -5,6 +5,8 @@
 @layer components{
   body{
     @apply bg-gradient-to-r from-pink-400 to-sky-300;
+    width: 100%;
+    font-family: "Courier New", Courier, monospace;
   }
 
   .backG{

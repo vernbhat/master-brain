@@ -16,7 +16,7 @@ function Logo() {
   }
   return (
     <div className='mx-8 mt-0'>
-      <Tilt className='shadow-md rounded-md bg-gradient-to-r from-pink-400 to-sky-300' options={defaultOptions} style={{ height: 140, width: 140 }}>
+      <Tilt className='shadow-2xl rounded-md bg-gradient-to-r from-pink-400 to-sky-300' options={defaultOptions} style={{ height: 140, width: 140 }}>
          <div>
           <img src={brain} className='pt-5 pl-5' alt="logo" />
          </div>
